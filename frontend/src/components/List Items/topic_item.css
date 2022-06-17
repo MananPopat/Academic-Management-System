@@ -1,0 +1,19 @@
+.topic-item{
+    display: flex;
+    width: 96%;
+    align-items: flex-start;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.4);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: ghostwhite;
+    color: black;
+    border-radius: 10px;
+}
+
+.topic-item a{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,50 @@
+.div_main_enc{
+    padding-top: 30px;
+}
+
+.login_main_div:hover{
+    width: 610px;
+    height: 510px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.login_main_div{
+    margin: auto;
+    padding:50px;
+    padding-bottom: 80px;
+    
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.18);
+    background-image: url('../../../public/BackgroundImages/main-background.jpg');
+    background-size: cover;
+    transition: 0.1s;
+}
+
+.warn{
+    color: red;
+    margin-top: 20px;
+}
+
+label
+{
+    float:left
+}
+
+.button{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.drop-btn{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.drop-btn:hover{
+    background-color: #035AA6;
+    border-color: #035AA6;
+}

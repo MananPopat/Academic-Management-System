@@ -1,0 +1,52 @@
+.add-section{
+
+    padding: 50px;
+    background-color: #0d6efd;
+    background-image: linear-gradient(135deg, #0a2a57, #0d6efd);
+    border-radius: 10px;
+    box-shadow : 0 0 10px 10px rgba(0,0,0,0.1);
+    width: 60%;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.add-section .input-field{
+    display: flex;
+    padding: 30px 0px 30px 00px;
+    height: 70px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 65%;
+    margin: auto;
+
+}
+
+.add-section .input-dropdown{
+    padding: 30px 0px 30px 0px;
+}
+
+.add-section .input-field label{
+    text-align: start;
+    margin-left: 10px;
+}
+
+.add-section .input-field input[type = "text"]{
+    width: 300px;
+    margin-left: auto;
+}
+
+.add-section .input-field input[type = "checkbox"]{
+    width: 30px;
+    margin-left: 0;
+}
+
+.add-section .additional-options{
+    padding-bottom: 50px;
+}
+
+.select-search{
+    margin-left: 20px;
+    margin-left: auto;
+}

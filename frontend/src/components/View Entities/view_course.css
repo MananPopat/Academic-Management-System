@@ -1,0 +1,34 @@
+.course
+{
+    display: flex;
+    padding:50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+    background-color: #54A7DF;
+    color: black;
+    background-image: url("../../../public/BackgroundImages/white-hex.png");
+    background-size:100%;
+}
+.course .enc{
+    margin-left: 20px;
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+}
+
+.course .course-details{
+    margin:auto;
+}
+.course .course-details{
+    padding-bottom: 50px;
+}
+
+.course .course-sections
+{
+    overflow-y: scroll;
+    height: 500px;
+}

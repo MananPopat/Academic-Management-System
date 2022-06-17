@@ -1,0 +1,30 @@
+.section{
+    display: flex;
+    padding:50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+    background-color: #54A7DF;
+    color: black;
+    background-image: url("../../../public/BackgroundImages/white-hex.png");
+    background-size:100%;
+}
+
+.section .section-topics-heading{
+    margin-left: 20px;
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.section .section-topics{
+   width: 95%;
+}
+
+.section .section-info{
+    margin: auto;
+}
